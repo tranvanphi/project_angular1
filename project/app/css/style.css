@@ -1,0 +1,157 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #f0f5f5 !important;
+}
+/*header*/
+.navbar{
+  border-radius: 0px !important;
+  margin-bottom:0px !important;
+  background-color: white !important;
+}
+.navbar-default{
+  border-bottom: 2px solid #3399FF !important;
+}
+
+
+.navbar-brand {
+  padding: 9px 0px 9px 15px !important;
+  margin-right:10px !important;
+}
+.navbar-brand>img {
+  height: 32px;
+  width: auto;
+}
+
+.collapse,.navbar-collapse{
+  font-size: 16px !important;
+  color: #ddd !important;
+}
+ul.nav > li.active >a{
+  background-color: white !important;
+  color: #0099cc !important;
+
+}
+
+
+/*content*/
+.well{
+  border-radius: 0px !important;
+  background-color: #ffffe6 !important;
+  border-bottom: 1px solid #ddd !important;
+  box-shadow: 0px 0px 5px 1px #ccc !important;
+}
+/*left content*/
+.panel{
+  box-shadow: 0px 0px 5px 1px #d3d3d3 !important;
+}
+
+.panel .panel-heading1{
+  background-color: white !important;
+  border:none !important;
+}
+
+.panel ul.list-group li.list-group-item2{
+  border:none !important;
+}
+
+.panel ul.list-group li.list-group-item{
+  padding: 7px 15px !important;
+}
+.panel ul.list-group li.list-group-item1{
+  padding: 3px 15px !important;
+}
+
+.panel ul.list-group li > a:hover{
+  text-decoration: none;
+}
+.panel h3.panel-title{
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 7px !important;
+}
+
+/*right content*/
+.panel .panel-heading2{
+  border-bottom: 1px solid #ddd !important;
+  background-color: white !important;
+}
+
+/*.list-content{
+  border-top:1px solid #c2c2a3;
+}*/
+
+.list-content >a h2{
+  font-size: 20px;
+  color: #060d13;
+}
+
+.list-content >a:hover{
+  text-decoration: none;
+}
+
+.list-content >a:hover h2{
+  color: #0066cc;
+}
+
+.decription{
+  background-color: #b8b894;
+  padding:10px 0px;
+  border-radius: 2px;
+  color: white;
+}
+
+.li_decription{
+  display:inline;
+}
+
+.li_decription >p{
+  display:initial;
+  padding:0px 10px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.li_decription >p:first-child{
+  border: none;
+}
+
+.li_decription_last{
+  float: right;
+}
+
+.content_detail{
+  padding:10px 0px;
+}
+
+.num_id{
+  float: right;
+}
+
+
+/*footer*/
+#footer{
+  background-color: #D3D3D3;
+  border-top: 2px solid #3399FF;
+}
+.img-footer{
+  height: 40px;
+  margin: 10px 0px;
+}
+
+.content-footer{
+  float: right;
+  color: #3399FF;
+  margin: 15px 0px;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+/*login*/
+
+.form-login{
+  margin: 50px auto;
+}
